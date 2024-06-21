@@ -69,7 +69,13 @@ This lab will guide you through creating an initial wireframe for a webpage usin
 - [ ] Repeat steps 4-6 for the footer (`footer` branch) and main content (`main-content` branch):
   1. For the footer branch: `git checkout -b footer`, add the footer element, commit, and push.
   2. For the main-content branch: `git checkout -b main-content`, add the main content elements, commit, and push.
-3. [ ]  Check your GitHub repository on the site. Yu should see three buttons that say `Compare & pull request`.
+5. [ ]  Check your GitHub repository on the site. You should see three buttons that say `Compare & pull request`.
+
+![GitHub pull request image](/assets/images/prs-github.png)
+
+6. [ ] Now if you click on the 'branches' section of your codebase, you'll see this.
+
+![GitHub pull request image](/assets/images/branches-github.png)
 
 **🛑 Do not do anything else from this point 🛑**
    
