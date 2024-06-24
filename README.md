@@ -66,7 +66,7 @@ This lab will guide you through creating an initial wireframe for a webpage usin
      ```
   3. Add and commit the changes: `git add index.html`, `git commit -m "Added header"`.
   4. Push the changes to GitHub: `git push origin header`.
-- [ ] Repeat steps 4-6 for the footer (`footer` branch) and main content (`main-content` branch):
+- [ ] Repeat the steps you did for the header for the footer (`footer` branch) and main content (`main-content` branch):
   1. For the footer branch: `git checkout -b footer`, add the footer element, commit, and push.
   2. For the main-content branch: `git checkout -b main-content`, add the main content elements, commit, and push.
 5. [ ]  Check your GitHub repository on the site. You should see three buttons that say `Compare & pull request`.
