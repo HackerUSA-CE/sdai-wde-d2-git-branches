@@ -14,7 +14,7 @@ This lab will guide you through creating an initial wireframe for a webpage usin
 ## Acceptance Criteria 📋
 1. **Create a repository:** Initialize a new Git repository and upload it to GitHub.
 2. **Main branch:** Set up the main branch with the basic structure.
-3. **Feature branches:** Create separate branches for the header, footer, and main content sections.
+3. **Feature branch:** Create a separate branch for the header.
 4. **HTML structure:** Each branch should contain the corresponding HTML structure.
 
 ---
@@ -33,7 +33,7 @@ This lab will guide you through creating an initial wireframe for a webpage usin
   5. Create a README file: `echo "# Project Title" >> README.md`.
   6. Add the README file to staging: `git add README.md`.
   7. Commit the README file: `git commit -m "Initial commit with README"`.
-- [ ] Create a new repository on GitHub:
+- [ ] Fork a new repository on GitHub:
   1. Go to GitHub and log in to your account.
   2. Click the "New" button to create a new repository.
   3. Enter a repository name and description.
@@ -56,8 +56,7 @@ This lab will guide you through creating an initial wireframe for a webpage usin
   4. Push the changes to GitHub: `git push origin main`.
 - [ ] Create a branch for the header section:
   1. Create and switch to the `header` branch: `git checkout -b header`.
-  2. Add a header element to `index.html` on the `header` branch:
-   
+  2. Add a header element to `index.html` on the `header` branch: 
   3. Add and commit the changes: `git add index.html`, `git commit -m "Added header"`.
   4. Push the changes to GitHub: `git push origin header`.
 - [ ] Check your GitHub repository on the site. You should a button that says `Compare & pull request`. 
@@ -70,19 +69,14 @@ This lab will guide you through creating an initial wireframe for a webpage usin
   3. **Green box** - Write any notes you want to keep.
   4. **Purple box** - Click the pull request button when you have passed the checks above. 
 - [ ] Now you have the `Merge pull request` page. 
+![Merge PR page](/assets/images/merge-pr.png)
+  1. **Red box** - Make sure the branch doesn't contain conflicts. 
+  2. **Blue box** - **Click the button** to merge your PR and **close** the request at the bottom.
 
 
+🎊 **Fantastic work! You just finished your first of many many pull requests (PRs).** 🎊
 
-**🛑 Do not do anything else from this point 🛑**
-   
-
-🎊 **Fantastic work! You just finished your first HTML coding lab.** 🎊
-
+**🛑 Do not do anything else from this point as this is the first part 🛑**
 ---
 
-## Solution codebase 👀
-🛑 **Only use this as a reference** 🛑
 
-💾 **Not something to copy and paste** 💾
-
-**Note:** This lab references a solution file located [here]() (link not shown).
