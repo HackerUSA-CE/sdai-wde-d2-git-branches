@@ -55,19 +55,13 @@ This lab will guide you through creating an initial wireframe for a webpage usin
   3. Add and commit the changes: `git add index.html`, `git commit -m "Added basic HTML structure"`.
   4. Push the changes to GitHub: `git push origin main`.
 - [ ] Create a branch for the header section:
-  1. Create and switch to the `header` branch: `git checkout -b header`.
+  1. Create and switch to the `feature-header` branch: `git checkout -b feature-header`.
   2. Add a header element to `index.html` on the `header` branch:
-     ```html
-     <body>
-         <header>
-             <h1>Header Section</h1>
-         </header>
-     </body>
-     ```
-  3. Add and commit the changes: `git add index.html`, `git commit -m "Added header"`.
+  3. Add and commit the changes: `git add .`, `git commit -m "Added header section to index.html"`.
   4. Push the changes to GitHub: `git push origin header`.
-- [ ] Check your GitHub repository on the site. You should a button that say `Compare & pull request`.
-[Compare & Pull Request button](/assets/images/prs-github.png)
+- [ ] Check your GitHub repository on the GitHub. You should see a button that say `Compare & pull request`. Click it. 
+![Compare & Pull Request button](/assets/images/prs-github.png)
+
 
 
 
