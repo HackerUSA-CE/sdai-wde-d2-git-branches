@@ -57,17 +57,19 @@ This lab will guide you through creating an initial wireframe for a webpage usin
 - [ ] Create a branch for the header section:
   1. Create and switch to the `header` branch: `git checkout -b header`.
   2. Add a header element to `index.html` on the `header` branch:
-     ```html
-     <body>
-         <header>
-             <h1>Header Section</h1>
-         </header>
-     </body>
-     ```
+   
   3. Add and commit the changes: `git add index.html`, `git commit -m "Added header"`.
   4. Push the changes to GitHub: `git push origin header`.
-- [ ] Check your GitHub repository on the site. You should a button that say `Compare & pull request`.
-[Compare & Pull Request button](/assets/images/prs-github.png)
+- [ ] Check your GitHub repository on the site. You should a button that says `Compare & pull request`. 
+![Compare & Pull Request button](/assets/images/prs-github.png)
+- [ ] Click the button. 
+- [ ] Now look at the image below of opening a pull request, there are things you need to check before you click. 
+![Pull request page](/assets/images/create-pr.png)
+  1. **Red box** - the `main` branch should be compared with the `feature-header` branch. 
+  2. **White box** - Lets you know if this is able to be merged with the `main` branch. 
+  3. **Green box** - Write any notes you want to keep.
+  4. **Purple box** - Click the pull request button when you have passed the checks above. 
+- [ ] Now you have the `Merge pull request` page. 
 
 
 
