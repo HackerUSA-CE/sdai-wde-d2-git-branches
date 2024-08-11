@@ -70,6 +70,23 @@ This lab will guide you through creating an initial wireframe for a webpage usin
   1. On the "Merge pull request" page, check the following:
      1. **Red box** - Ensure the branch does not contain conflicts.
      2. **Blue box** - Click the "Merge pull request" button and then close the request. ![Merge PR page](/assets/images/merge-pr.png)
+- [ ] Create a branch for the main content section:
+  1. Create and switch to the `feature-main-section` branch: `git checkout -b feature-main-section`.
+  2. Add a main content element under the `<header>` section to `index.html` on the `feature-main-section` branch.
+  3. Add a paragraph tag in the main section with the text `Main section`.
+  3. Add and commit the changes: `git add .`, `git commit -m "Added main content section"`.
+  4. Push the changes to GitHub.
+  5. Go to the repository GitHub page and start the process for a Pull request. 
+  6. When everything passes, merge back into the main section.
+  7. Go back to your code and then switch back to the `main` branch.
+  8. Using `git status`, check if you need to pull the merged code. Use `git pull` to upload your local codebase.
+- [ ] Create a branch for the footer section:
+  1. Create and switch to the `feature-footer` branch: `git checkout -b feature-footer`.
+  2. Add a footer element to `index.html` on the `feature-footer` branch under the `main` section.  
+  3. Add and commit the changes you made.
+  4. Push the changes to GitHub on the `feature-footer` branch.
+- [ ] Create a pull request for the changes.
+- [ ] Review and merge the pull requests.
 
 🎊 **Fantastic work! You just finished your first HTML coding lab.** 🎊
 
